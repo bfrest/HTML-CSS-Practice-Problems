@@ -8,19 +8,15 @@
 
 .content-left {
     width: 34%;
-    height: calc( 100vh - 200px );
+    height: calc( 100vh - 200px);
     background: #565555;
-    float: left;
 }
-
 
 /* Position content-mid to the right of content left. Make this container take up the remaining width of the screen */
 
 .content-mid {
     width: 66%;
-    height: calc( 100vh - 200px );
     background: #B0B0B0;
-    float: right;
 }
 
 /* Position footer at the bottom of screen */
@@ -32,4 +28,3 @@
     position: absolute;
     bottom: 0;
 }
-
